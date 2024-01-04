@@ -17,16 +17,16 @@
 <body>
 
     <div class="menu">
-        <h1><i class="fa-solid fa-envelope-circle-check">MyNotes</i></h1>
+        <h1><i class="fa-solid fa-envelope-circle-check"> MyNotes</i></h1>
 
         <div class="menu-buttons">
-            <button class="add icon"><i class="fas fa-square-plus"></i>Dodaj</button>
-            <button class="delete-all icon"><i class="fas fa-trash-alt"></i>Usuń wszystkie</button>
+            <button class="add icon"><i class="fas fa-square-plus"></i> Dodaj</button>
+            <button class="delete-all icon"><i class="fas fa-trash-alt"></i> Usuń wszystkie</button>
         </div>
     </div>
 
     <div class="note-area">
-
+<!-- 
         <div class="note">
             <div class="note-header">
                 <h3 class="note-title">Notatka #1</h3>
@@ -35,13 +35,13 @@
             <div class="note-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores commodi sint
                 explicabo deserunt molestiae dolorum. Aspernatur illo assumenda dolore beatae consectetur
                 exercitationem, obcaecati itaque doloribus?</div>
-        </div>
+        </div> -->
     </div>
 
     <div class="note-panel">
         <h2>Dodaj notatkę</h2>
         <label for="category">Wybierz kategorię</label>
-        <select id="category">
+        <select id="category" onchange="selectValue()">
             <option value="0" disabled selected>- Wybierz kategorię -</option>
             <option value="1">Zakupy</option>
             <option value="1">Praca</option>
@@ -60,7 +60,6 @@
 
     </div>
 
-    
 
     <script src="script.js"></script>
 </body>

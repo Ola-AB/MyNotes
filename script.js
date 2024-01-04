@@ -61,7 +61,7 @@ const selectValue = () => {
 	selectedValue = category.options[category.selectedIndex].text;
 };
 
-const checkColor = note => {
+const checkColor = (note) => {
 	switch (selectedValue) {
 		case "Zakupy":
 			note.style.backgroundColor = "rgb(72, 255, 0)";
@@ -75,7 +75,7 @@ const checkColor = note => {
 	}
 };
 
-const deleteNote = id => {
+const deleteNote = (id) => {
 	const noteToDelete = document.getElementById(id);
 	noteArea.removeChild(noteToDelete);
 };
