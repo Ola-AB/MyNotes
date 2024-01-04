@@ -21,7 +21,8 @@ Linkedin - [Olga Burkiewicz](https://www.linkedin.com/in/olga-burkiewicz-990058a
 
 **Prezentacja:**
 
-https://github.com/Ola-AB/MyNotes/assets/142878084/23d6949d-0a91-466c-af9f-944e4094cf3e
+https://github.com/Ola-AB/MyNotes/assets/142878084/866a95ad-010e-4114-9842-dcfe17472c90
+
 
 
 
